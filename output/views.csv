@@ -1,0 +1,11 @@
+catalog,database,view_name,script,create_time,last_access_time,view_type
+awsdatacatalog,mydatabase,vdepartment_employees,"SELECT
+  ""d"".""name"" ""Department""
+, ""e"".""first_name"" ""FirstName""
+, ""e"".""last_name"" ""LastName""
+, ""concat""(""m"".""first_name"", ' ', ""m"".""last_name"") ""DepartmentManager""
+FROM
+  ((mydatabase.departments d
+INNER JOIN mydatabase.employees e ON (""e"".""department_id"" = ""d"".""department_id""))
+INNER JOIN mydatabase.employees m ON (""d"".""manager_id"" = ""m"".""employee_id""))
+",2021-04-11 19:28:57+02:00,,VIRTUAL_VIEW

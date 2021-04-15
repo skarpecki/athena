@@ -1,0 +1,5 @@
+catalog,database,view_name,ordinal_position,column_default,is_nullable,data_type,comment,extra_info
+awsdatacatalog,mydatabase,vdepartment_employees,1, ,YES,varchar, , 
+awsdatacatalog,mydatabase,vdepartment_employees,2, ,YES,varchar, , 
+awsdatacatalog,mydatabase,vdepartment_employees,3, ,YES,varchar, , 
+awsdatacatalog,mydatabase,vdepartment_employees,4, ,YES,varchar, , 

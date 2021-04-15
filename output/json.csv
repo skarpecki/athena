@@ -1,0 +1,2 @@
+user_id,first_name,last_name,age,orders
+1,John,Doe,30,"[{item_id=1234, order_date=11/11/2019}, {item_id=4321, order_date=12/12/2020}]"
